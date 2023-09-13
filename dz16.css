@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top, .center{
+    display: flex;
+    justify-content: center;
+}
+.center{
+    margin-top: 30px;
+}
+.add{
+    margin-top: 20px;
+}
+.add_input{
+    width: 300px;
+    height: 30px;
+}
+.add_btn{
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    margin-left: -5px;
+    background: green;
+    color: white;
+    border: none;
+}
+.todo_list{
+    display: block;
+}
+
+
